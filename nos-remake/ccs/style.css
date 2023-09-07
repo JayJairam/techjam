@@ -12,6 +12,7 @@ body{
     font-size: 1.25rem;
     font-style: sans serif;
     font-weight: 500;
+    color: rgb(102, 102, 102);
 }
 
 header{
@@ -26,13 +27,40 @@ header{
 }
 
 .Top-Nav{
-    width: 65%;
+    width: 69%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    
+    gap: 10rem;
+    font-size: 1.25rem;
 }
+
+.icons{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 17rem;
+}
+
+
+
+.icons > img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-header{
+    width: 12%;
+    height: 100%;
+}
+
+.highlight1{
+    color: rgb(230, 30, 20);
+}
+
 
 main{
 
