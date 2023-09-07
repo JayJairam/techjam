@@ -178,7 +178,6 @@ main{
 }
 
 .live-box{
-    background: red;
     grid-column: 7 /10 ;
     grid-row: 4 / 5;
     margin: 1.25rem;
@@ -186,4 +185,14 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.Nieuwtjes{
+    grid-column: 7 / 10;
+    grid-row: 5 / 13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 23rem;
 }
